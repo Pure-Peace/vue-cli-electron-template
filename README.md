@@ -60,7 +60,7 @@ Build with `vue-cli` & `electron-builder`, added common plugins and demo feature
 
 **files:**
 
-- `./vue.config.js`: Contains ** vue path alias **,` electron-builder`, `i18n` and other related configurations.
+- `./vue.config.js`: Contains **vue path alias**,` electron-builder`, `i18n` and other related configurations.
 - `src/background.js`: The main electron process.
 - `src/main.js`: vue entry file.
 - `src/backend.js`: network request interface and` axios` configuration.
