@@ -24,9 +24,9 @@ Build with `vue-cli` &` electron-builder`, added common plugins and demo feature
 - A custom window without native borders
 - An svg component based on `svg-sprite-loader`.
 - `Electron6`: Demo of some apis.
-- `vue-i18n`: Added demonstration of language switching, including language switching effect of` electron` native menu.
+- `vue-i18n`: Added demonstration of language switching, including language switching effect of `electron` native menu.
 - `axios`: Added request demo.
-- Use ESlint for code style specification.
+- Use `ESlint` for code style specification.
 - `vuex`
 - No third-party ui library is introduced for your convenience.
 
