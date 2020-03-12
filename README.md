@@ -7,6 +7,12 @@ A desktop application template built using vue-cli3 and Electron6, using a custo
 
 Build with `vue-cli` &` electron-builder`, added common plugins and demo features. You can happily use the `svg` icon in this project, use the `i18n` multi-language comfortably, switch the application language (including the native menu of the electron and the browser page), and make network requests more convenient.
 
+<h2 align="center">-Screenshot-</h2>
+
+![screenshot](http://otsu.fun/shoot_eg.png)
+
+---
+
 ## These:
 - Basic: `vue-cli` &` electron-builder`
 - Router: `vue-router`
@@ -25,9 +31,6 @@ Build with `vue-cli` &` electron-builder`, added common plugins and demo feature
 - `vuex`
 - No third-party ui library is introduced for your convenience.
 
-<h2 align="center">-Screenshot-</h2>
-
-![screenshot](http://otsu.fun/shoot_eg.png)
 
 <h2 align="center">-Start-</h2>
 
