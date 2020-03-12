@@ -29,7 +29,7 @@ Build with `vue-cli` & `electron-builder`, added common plugins and demo feature
 - `axios`: Added request demo.
 - Use `ESlint` for code style specification.
 - `vuex`
-- No third-party ui library is introduced for your convenience.
+- I did not use any ui library, you can add as you like.
 
 
 <h2 align="center">-Start-</h2>
