@@ -34,23 +34,23 @@ Build with `vue-cli` &` electron-builder`, added common plugins and demo feature
 <h2 align="center">-Start-</h2>
 
 
- 1. Clone this repository
+ 1. **Clone this repository**
  
 `git clone https://github.com/Pure-Peace/vue-cli-electron-template`
 
- 2. Enter the directory
+ 2. **Enter the directory**
  
 `cd vue-cli-electron-template`
 
- 3. Install dependencies (yarn is recommended)
+ 3. **Install dependencies (yarn is recommended)**
  
 `yarn` or `npm install`
 
- 4. Start application
+ 4. **Start application**
  
 `yarn go` or `npm run go`
 
- 5. Packaging
+ 5. **Packaging**
  
 `yarn pack` or `npm run pack`
 
