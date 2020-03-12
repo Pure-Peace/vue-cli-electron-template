@@ -72,7 +72,7 @@ Build with `vue-cli` & `electron-builder`, added common plugins and demo feature
 ---
 **postscript:**
 
-Beginner electron, deficiencies, please advise.
+Beginner electron, welcome to suggest
 
 And
 
