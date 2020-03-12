@@ -8,6 +8,12 @@
 
 基于`vue-cli` & `electron-builder`，添加了常用插件及演示功能。您可以愉快的在本项目中使用`svg`图标，舒适的使用`i18n`多国语言支持切换应用语言（包括electron原生菜单及浏览器页面），以及更方便的进行网络请求等等。
 
+<h2 align="center">-截图-</h2>
+
+![中文截图](http://otsu.fun/shoot_zh.png)
+
+---
+
 ## 这些：
 - 基础：`vue-cli` & `electron-builder`
 - 路由：`vue-router`
@@ -26,9 +32,6 @@
 - `vuex`
 - 没有引入任何第三方ui库，方便您自行选择。
 
-<h2 align="center">-截图-</h2>
-
-![中文截图](http://otsu.fun/shoot_zh.png)
 
 <h2 align="center">-开始-</h2>
 
