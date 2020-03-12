@@ -53,7 +53,7 @@
 
  5. **打包**
  
-`yarn pack` 或 `npm run pack`
+`yarn packapp` 或 `npm run packapp`
 
 
 <h2 align="center">-结构-</h2>
