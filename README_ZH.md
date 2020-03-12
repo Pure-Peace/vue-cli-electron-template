@@ -34,23 +34,23 @@
 <h2 align="center">-开始-</h2>
 
 
- 1. 克隆项目
+ 1. **克隆项目**
  
 `git clone https://github.com/Pure-Peace/vue-cli-electron-template`
 
- 2. 进入项目目录
+ 2. **进入项目目录**
  
 `cd vue-cli-electron-template`
 
- 3. 安装依赖（推荐使用yarn）
+ 3. **安装依赖（推荐使用yarn）**
  
 `yarn` 或 `npm install`
 
- 4. 启动
+ 4. **启动**
  
 `yarn go` 或 `npm run go`
 
- 5. 打包
+ 5. **打包**
  
 `yarn pack` 或 `npm run pack`
 
