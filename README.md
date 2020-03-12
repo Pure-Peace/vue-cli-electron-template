@@ -7,7 +7,6 @@ A desktop application template built using vue-cli3 and Electron6, using a custo
 
 Build with `vue-cli` &` electron-builder`, added common plugins and demo features. You can happily use the `svg` icon in this project, use the `i18n` multi-language comfortably, switch the application language (including the native menu of the electron and the browser page), and make network requests more convenient.
 
-<h2 align="center">-Screenshot-</h2>
 
 ![screenshot](http://otsu.fun/shoot_eg.png)
 
@@ -36,18 +35,23 @@ Build with `vue-cli` &` electron-builder`, added common plugins and demo feature
 
 
  1. Clone this repository
+ 
 `git clone https://github.com/Pure-Peace/vue-cli-electron-template`
 
  2. Enter the directory
+ 
 `cd vue-cli-electron-template`
 
  3. Install dependencies (yarn is recommended)
+ 
 `yarn` or `npm install`
 
  4. Start application
+ 
 `yarn go` or `npm run go`
 
  5. Packaging
+ 
 `yarn pack` or `npm run pack`
 
 
