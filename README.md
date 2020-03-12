@@ -53,7 +53,7 @@ Build with `vue-cli` & `electron-builder`, added common plugins and demo feature
 
  5. **Packaging**
  
-`yarn pack` or `npm run pack`
+`yarn packapp` or `npm run packapp`
 
 
 <h2 align="center">-Structure-</h2>
