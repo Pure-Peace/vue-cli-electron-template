@@ -1,12 +1,12 @@
 ![bigLogo](http://otsu.fun/big_logo.png)
 # vue-cli-electron-template
-Using vue-cli3 and Electron6 built a desktop application template, with a custom borderless window, and including vue-router, vue-i18n, axios and other common components, as well as some demo functions.
+Using `vue-cli3` and `Electron6` built a desktop application template, with a custom borderless window, and including `vue-router`, `vue-i18n`, `axios` and other common components, as well as some demo functions.
 
 - English / [中文](https://github.com/Pure-Peace/vue-cli-electron-template/blob/master/README_ZH.md)
 
 <h2 align="center">-Introduction-</h2>
 
-Build with `vue-cli` &` electron-builder`, added common plugins and demo features. You can happily use the `svg` icon in this project, use the `i18n` multi-language comfortably, switch the application language (including the native menu of the electron and the browser page), and make network requests more convenient.
+Build with `vue-cli` & `electron-builder`, added common plugins and demo features. You can happily use the `svg` icon in this project, use the `i18n` multi-language comfortably, switch the application language (including the native menu of the electron and the browser page), and make network requests more convenient.
 
 
 ![screenshot](http://otsu.fun/shoot_eg.png)
