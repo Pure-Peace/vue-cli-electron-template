@@ -6,7 +6,7 @@
 
 <h2 align="center">-介绍-</h2>
 
-基于`vue-cli` & `electron-builder`，添加了常用插件及演示功能。您可以愉快的在本项目中使用`svg`图标，快捷的切换应用语言、增加`i18n`多国语言支持（可对浏览器页面或electron原生菜单进行翻译），进行网络请求等等。
+基于`vue-cli` & `electron-builder`，添加了常用插件及演示功能。您可以愉快的在本项目中使用`svg`图标，舒适的使用`i18n`多国语言支持切换应用语言（包括electron原生菜单及浏览器页面），以及更方便的进行网络请求等等。
 
 ## 这些：
 - 基础：`vue-cli` & `electron-builder`
@@ -52,15 +52,17 @@
 <h2 align="center">-结构-</h2>
 
 **文件：**
-`./vue.config.js`：包含**vue路径别名**、`electron-builder`、`i18n`等相关配置。
-`src/background.js`：electron主进程。
-`src/main.js`：vue入口文件。
-`src/backend.js`：网络请求接口及`axios`配置。
+
+- `./vue.config.js`：包含**vue路径别名**、`electron-builder`、`i18n`等相关配置。
+- `src/background.js`：electron主进程。
+- `src/main.js`：vue入口文件。
+- `src/backend.js`：网络请求接口及`axios`配置。
 
 **目录：**
-`/src/locales`：`i18n` 语言翻译文件目录。
+
+- `/src/locales`：`i18n` 语言翻译文件目录。
 
 ---
 **后记：**
 
-初学electron，请多指教。
+初学electron，不足之处，请多指教。
