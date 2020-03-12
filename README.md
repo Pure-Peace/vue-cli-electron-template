@@ -6,8 +6,6 @@
 
 <h2 align="center">-介绍-</h2>
 
-![中文截图](http://otsu.fun/shoot_zh.png)
-
 基于`vue-cli` & `electron-builder`，添加了常用插件及演示功能。您可以愉快的在本项目中使用`svg`图标，快捷的切换应用语言、增加`i18n`多国语言支持（可对浏览器页面或electron原生菜单进行翻译），进行网络请求等等。
 
 ## 这些：
@@ -20,13 +18,17 @@
 
 ## 以及：
 - 一个自定义的无原生边框窗口
-- 一个基于`svg-sprite-loader`的svg组件
-- `Electron6`：部分api的演示
-- `vue-i18n`：已添加切换语言的演示（包括原生菜单栏）
-- `axios`：已添加请求演示
-- 使用`ESlint`进行代码风格规范
+- 一个基于`svg-sprite-loader`的svg组件。
+- `Electron6`：部分api的演示。
+- `vue-i18n`：已添加切换语言的演示，包括`electron`原生菜单的语言切换效果。
+- `axios`：已添加请求演示。
+- 使用`ESlint`进行代码风格规范。
 - `vuex`
-- 没有引入任何第三方ui库，方便您自行选择
+- 没有引入任何第三方ui库，方便您自行选择。
+
+<h2 align="center">-截图-</h2>
+
+![中文截图](http://otsu.fun/shoot_zh.png)
 
 <h2 align="center">-开始-</h2>
 
@@ -56,7 +58,7 @@
 `src/backend.js`：网络请求接口及`axios`配置。
 
 **目录：**
-`/src/locales`：`i18n` 语言翻译文件目录
+`/src/locales`：`i18n` 语言翻译文件目录。
 
 ---
 **后记：**
