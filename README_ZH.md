@@ -3,7 +3,7 @@
 # vue-cli-electron-template
 使用vue-cli3和Electron6构建的桌面应用模板，使用自定义的无原生边框窗口，并包含了vue-router、vue-i18n、axios等常用部件，以及一些演示功能。
 
-- [English](https://github.com/Pure-Peace/vue-cli-electron-template/edit/master/README.md) / 中文
+- [English](https://github.com/Pure-Peace/vue-cli-electron-template/blob/master/README.md) / 中文
 
 <h2 align="center">-介绍-</h2>
 
