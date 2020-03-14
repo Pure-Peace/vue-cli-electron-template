@@ -1,6 +1,6 @@
 ![bigLogo](http://otsu.fun/big_logo.png)
 # 🔥vue-cli-electron-template
-Using `vue-cli3` and `Electron6` built a modular desktop application template. with a custom borderless window, including `vue-router`, `vue-i18n`, `axios` and more common components, as well as some demo functions.
+⭐Using `vue-cli3` and `Electron6` built a modular desktop application template. with a custom borderless window, including `vue-router`, `vue-i18n`, `axios` and more common components, as well as some demo functions.
 
 - 🌺English / 💖[中文](https://github.com/Pure-Peace/vue-cli-electron-template/blob/master/README_ZH.md)
 
