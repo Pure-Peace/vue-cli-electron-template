@@ -2,12 +2,12 @@ import { ipcMain, dialog } from 'electron'
 
 class IpcEvents {
   // 创建ipc事件
-  create (AppManager) {
-    this.AppManager = AppManager
+  create (appManager) {
+    this.appManager = appManager
 
     // 翻译器函数
     // Translator function
-    const $t = AppManager.translator.get()
+    const $t = appManager.translator.get()
 
     // ipc通信示例 / ipc demo
     ipcMain.on('showDialog', (sys, msg) => {
@@ -24,7 +24,7 @@ class IpcEvents {
 
     // 语言变更事件 / language change event
     ipcMain.on('appLanguageChange', (sys, lang) => {
-      this.AppManager.languageChange(lang)
+      this.appManager.languageChange(lang)
     })
   }
 }
