@@ -1,79 +1,98 @@
 ![bigLogo](http://otsu.fun/big_logo.png)
-# vue-cli-electron-template
-Using `vue-cli3` and `Electron6` built a desktop application template, with a custom borderless window, and including `vue-router`, `vue-i18n`, `axios` and other common components, as well as some demo functions.
+# 🔥vue-cli-electron-template
+Using `vue-cli3` and `Electron6` built a modular desktop application template. with a custom borderless window, including `vue-router`, `vue-i18n`, `axios` and more common components, as well as some demo functions.
 
-- English / [中文](https://github.com/Pure-Peace/vue-cli-electron-template/blob/master/README_ZH.md)
+- 🌺English / 💖[中文](https://github.com/Pure-Peace/vue-cli-electron-template/blob/master/README_ZH.md)
 
-<h2 align="center">-Introduction-</h2>
+<h2 align="center">⚡-Introduction-</h2>
 
-Build with `vue-cli` & `electron-builder`, added common plugins and demo features. You can happily use the `svg` icon in this project, use the `i18n` multi-language comfortably, switch the application language (including the native menu of the electron and the browser page), and make network requests more convenient.
+🚀Build with `vue-cli` & `electron-builder`, modular design. added common plugins and demo features. You can happily use the `svg` icon in this project, use the `i18n` multi-language comfortably, switch the application language (overall! including the native menu of the electron and the browser page), multi-window management, and make network requests more convenient.
 
 
 ![screenshot](http://otsu.fun/shoot_eg.png)
 
 ---
 
-## These:
-- Basic: `vue-cli` &` electron-builder`
-- Router: `vue-router`
-- Multilingual: `vue-i18n`
-- Network Requester: `axios`
-- Quick package application: `electron-builder`
-- css preprocessor: `less`
+## 📘These:
+- 🍊Basic: `vue-cli` &` electron-builder`
+- 🌕Router: `vue-router`
+- 🍁Multilingual: `vue-i18n`
+- 🌝Network Requester: `axios`
+- 🚅Quick package: `electron-builder`
+- 💚css preprocessor: `less`
 
-## And:
-- A custom window without native borders
-- An svg component based on `svg-sprite-loader`.
-- `Electron6`: Demo of some apis.
-- `vue-i18n`: Added demonstration of language switching, including language switching effect of `electron` native menu.
-- `axios`: Added request demo.
-- Use `ESlint` for code style specification.
-- `vuex`
+## 🔍And:
+- ⛅A custom window without native borders
+- 🎨Modular design with object-oriented writing (mainProcess)
+- 🍰Language switching for the entire program
+- 🐳An svg component based on `svg-sprite-loader`
+- 🏀`Electron6`: Demo of some apis.
+- 🍉`vue-i18n`: Added demonstration of language switching, including language switching effect of `electron` native menu.
+- 🍩`axios`: Added request demo.
+- 🌼Use `ESlint` for code style specification.
+- 🌠`vuex`
 - I did not use any ui library, you can add as you like.
 
 
-<h2 align="center">-Start-</h2>
+<h2 align="center">🏆-Start-</h2>
 
 
- 1. **Clone this repository**
+ 1. **🍬Clone this repository**
  
-`git clone https://github.com/Pure-Peace/vue-cli-electron-template`
+```bash
+git clone https://github.com/Pure-Peace/vue-cli-electron-template
+```
 
- 2. **Enter the directory**
+ 2. **🍮Enter the directory**
  
-`cd vue-cli-electron-template`
+```bash
+cd vue-cli-electron-template
+```
 
- 3. **Install dependencies (yarn is recommended)**
+ 3. **🍙Install dependencies (yarn is recommended)**
  
-`yarn` or `npm install`
+```bash
+yarn & npm install
+```` 
 
- 4. **Start application**
+
+ 4. **🌽Start application**
  
-`yarn go` or `npm run go`
+```bash
+yarn go & npm run go
+```
 
- 5. **Packaging**
+ 5. **🍭Packaging**
  
-`yarn packapp` or `npm run packapp`
+```bash
+yarn packapp & npm run packapp
+```
 
 
-<h2 align="center">-Structure-</h2>
+<h2 align="center">🍌-Structure-</h2>
 
-**files:**
+**⚽files:**
 
-- `./vue.config.js`: Contains **vue path alias**,` electron-builder`, `i18n` and other related configurations.
-- `src/background.js`: The main electron process.
-- `src/main.js`: vue entry file.
-- `src/backend.js`: network request interface and` axios` configuration.
+- 🎰`./vue.config.js`: Contains **vue path alias**,` electron-builder`, `i18n` and other related configurations.
+- ☔`src/background.js`: Main process entry file.
+- 🐐`src/mainProcess.js`: Management of the entire program.
+- 🚧`src/main.js`: Vue entry file.
+- 🏨`src/backend.js`: network request interface and` axios` configuration.
 
-**Directories:**
+**🍀Directories:**
 
-- `/src/locales`: `i18n` language translation file directory.
+- 🌲`src/locales`: `i18n` language translation file directory.
+- 🐓`src/mainProcess`: Main process modular file directory.
+- 🙀`src/mainProcess/events`: ipc and app event manager.
+- 🌴`src/mainProcess/menus`: Menu manager.
+- 🐏`src/mainProcess/plugins`: Currently only translator.
+- 🙉`src/mainProcess/windows`: windows and windows manager.
 
 ---
-**postscript:**
+**🔞postscript:**
 
-Beginner electron, any suggestion is appreciated.
+🌹Beginner electron, any suggestion is appreciated.
 
 And
 
-English is not good, most of the documents use Google Translate...
+🙈English is not good, most of the documents use Google Translate...
