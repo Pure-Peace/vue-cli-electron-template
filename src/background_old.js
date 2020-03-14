@@ -1,4 +1,8 @@
 'use strict'
+// 废弃 / Abandoned
+// 新版改为模块化写法，此旧版本单文件不再更新
+// The new version is changed to modular writing, 
+// and the single file of this old version is no longer updated
 
 import { app, protocol, BrowserWindow, Menu, Tray, ipcMain, dialog } from 'electron'
 import { createProtocol } from 'vue-cli-plugin-electron-builder/lib'
