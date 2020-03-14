@@ -31,13 +31,10 @@ export default {
       showOptions: false
     }
   },
-  mounted () {
-    console.log(this.$i18n)
-  },
   methods: {
     changeLang (lang) {
       this.$i18n.locale = lang
-      ipc.send('appLanguageChange', lang, this.$i18n.messages)
+      ipc.send('appLanguageChange', lang)
       this.showOptions = false
     }
   }

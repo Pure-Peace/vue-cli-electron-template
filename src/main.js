@@ -1,3 +1,4 @@
+// vue入口文件 / vue entry file
 import Vue from 'vue'
 import App from './App.vue'
 import router from './router'

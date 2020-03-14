@@ -3,6 +3,7 @@
   "localeChangerTitle": "Language:",
   "a message": "Hello, i'm rendering process!",
   "Click Me!": "cLiCk mE!!",
+  "reciveFromRenderer": "Received a message from the rendering process！",
   "trayMenu": {
     "reset": "Show main window",
     "openDialog": "Open dialog",

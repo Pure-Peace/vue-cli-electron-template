@@ -3,6 +3,7 @@
   "localeChangerTitle": "选择语言：",
   "a message": "你好，我是渲染进程！",
   "Click Me!": "戳我~",
+  "reciveFromRenderer": "收到了来自渲染进程的消息！",
   "trayMenu": {
     "reset": "显示主窗口",
     "openDialog": "打开对话框",
