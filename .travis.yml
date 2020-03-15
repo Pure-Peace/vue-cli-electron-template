@@ -1,27 +1,5 @@
-osx_image: xcode11.3
-sudo: required
-dist: trusty
-language: c
-matrix:
-  include:
-  - os: osx
-  - os: linux
-    env: CC=clang CXX=clang++ npm_config_clang=1
-    compiler: clang
-addons:
-  apt:
-    packages:
-    - libgnome-keyring-dev
-    - icnsutils
-before_install:
-- if [[ "$TRAVIS_OS_NAME" == "linux" ]]; then sudo apt-get install --no-install-recommends -y icnsutils graphicsmagick xz-utils; fi
-install:
-- nvm install 12.14.1
-- source ~/.bashrc
-- npm install -g xvfb-maybe
-- npm install
+language: node_js
+node_js:
+    - 9
 script:
-- npm run packapp
-branches:
-  only:
-  - master
+    - npm run go
