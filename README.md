@@ -86,8 +86,8 @@ yarn packapp & npm run packapp
 **⚽files:**
 
 - 🎰`./vue.config.js`: Contains **vue path alias**,` electron-builder`, `i18n` and other related configurations.
-- ☔`src/background.js`: Main process entry file.
-- 🐐`src/mainProcess.js`: Management of the main process.
+- ☔`src/background.js`: **Main process** entry file.
+- 🐐`src/mainProcess/appManager.js`: Management of the **main process**.
 - 🚧`src/main.js`: Vue entry file.
 - 🏨`src/backend.js`: network request interface and` axios` configuration.
 
