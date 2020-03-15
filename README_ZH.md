@@ -10,6 +10,7 @@
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/Pure-Peace/vue-cli-electron-template?color=aa&label=Lightweight&logo=aa&logoColor=aa)
 ![GitHub last commit](https://img.shields.io/github/last-commit/Pure-Peace/vue-cli-electron-template)
 
+
 - 🌺[English](https://github.com/Pure-Peace/vue-cli-electron-template/blob/master/README.md) / 💖中文
 
 <h2 align="center">⚡-介绍！-</h2>
@@ -17,7 +18,13 @@
 🚀构建于`vue-cli` & `electron-builder`，模块化设计。添加了常用插件及演示功能。你可以在本项目中愉快的使用`svg`图片，舒适的享受`i18n`多国语言支持， 切换程序语言（整个程序！包括electron原生菜单及浏览器页面)，快速进行多窗口管理、菜单管理，并且具有一个方便快捷的网络请求方式。
 
 
-![screenshot](http://otsu.fun/shoot_eg.png)
+## 📷Screenshots:
+![screenshot](http://otsu.fun/demos/0.png)
+![screenshot](http://otsu.fun/demos/1.png)
+![screenshot](http://otsu.fun/demos/gw.png)
+![screenshot](http://otsu.fun/demos/2.png)
+![screenshot](http://otsu.fun/demos/3.png)
+
 
 ---
 
