@@ -18,16 +18,6 @@
 🚀构建于`vue-cli` & `electron-builder`，模块化设计。添加了常用插件及演示功能。你可以在本项目中愉快的使用`svg`图片，舒适的享受`i18n`多国语言支持， 切换程序语言（整个程序！包括electron原生菜单及浏览器页面)，快速进行多窗口管理、菜单管理，并且具有一个方便快捷的网络请求方式。
 
 
-## 📷Screenshots:
-![screenshot](http://otsu.fun/demos/0.png)
-![screenshot](http://otsu.fun/demos/1.png)
-![screenshot](http://otsu.fun/demos/gw.png)
-![screenshot](http://otsu.fun/demos/2.png)
-![screenshot](http://otsu.fun/demos/3.png)
-
-
----
-
 ## 📘这些:
 - 🍊基础: `vue-cli` &` electron-builder`
 - 🌕路由: `vue-router`
@@ -47,6 +37,14 @@
 - 🌼使用`ESlint`进行代码风格规范
 - 🌠还有`vuex`、`vue-router`
 - 🍖我没有在项目中添加第三方ui库，您可以随心所欲选择自己喜欢的添加
+
+
+## 📷Screenshots:
+![screenshot](http://otsu.fun/demos/0.png)
+![screenshot](http://otsu.fun/demos/1.png)
+![screenshot](http://otsu.fun/demos/gw.png)
+![screenshot](http://otsu.fun/demos/2.png)
+![screenshot](http://otsu.fun/demos/3.png)
 
 
 <h2 align="center">🏆-开始吧！-</h2>
