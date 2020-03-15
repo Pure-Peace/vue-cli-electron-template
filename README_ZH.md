@@ -2,6 +2,14 @@
 # 🔥vue-cli-electron-template
 ⭐使用`vue-cli3`和`Electron6`构建的一个模块化的桌面应用程序模板。可以方便进行的打包、切换程序语言，使用自定义无边框窗口，并且添加了`vue-router`、`vue-i18n`、`axios`等等常用插件，还提供了一些演示功能。
 
+![npm](https://img.shields.io/npm/v/@vue/cli?color=aa&label=vue-cli)
+![GitHub package.json version](https://img.shields.io/github/package-json/v/Pure-Peace/vue-cli-electron-template?color=yellow&logo=yellow&logoColor=yellow)
+[![Build Status](https://travis-ci.org/Pure-Peace/vue-cli-electron-template.svg?branch=master)](https://travis-ci.org/Pure-Peace/vue-cli-electron-template)
+[![codebeat badge](https://codebeat.co/badges/ee804451-ff1f-4e2f-9858-b0b3e2d96a3f)](https://codebeat.co/projects/github-com-pure-peace-vue-cli-electron-template-master)
+![license](https://img.shields.io/badge/license-MIT-000000.svg)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/Pure-Peace/vue-cli-electron-template?color=aa&label=Lightweight&logo=aa&logoColor=aa)
+![GitHub last commit](https://img.shields.io/github/last-commit/Pure-Peace/vue-cli-electron-template)
+
 - 🌺[English](https://github.com/Pure-Peace/vue-cli-electron-template/blob/master/README.md) / 💖中文
 
 <h2 align="center">⚡-介绍！-</h2>
