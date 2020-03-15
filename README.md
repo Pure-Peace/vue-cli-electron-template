@@ -17,10 +17,13 @@
 
 🚀Build with `vue-cli` & `electron-builder`, modular design. added common plugins and demo features. You can happily use the `svg` icon in this project, use the `i18n` multi-language comfortably, switch the application language (overall! including the native menu of the electron and the browser page), Quickly manage multiple windows and menus, make network requests more convenient.
 
+## 📷Screenshots:
+![screenshot](http://otsu.fun/demos/0.png)
+![screenshot](http://otsu.fun/demos/1.png)
+![screenshot](http://otsu.fun/demos/gw.png)
+![screenshot](http://otsu.fun/demos/2.png)
+![screenshot](http://otsu.fun/demos/3.png)
 
-![screenshot](http://otsu.fun/shoot_eg.png)
-
----
 
 ## 📘These:
 - 🍊Basic: `vue-cli` &` electron-builder`
