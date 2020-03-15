@@ -89,8 +89,8 @@ yarn packapp & npm run packapp
 **⚽文件的：**
 
 - 🎰`./vue.config.js`: 包括 **vue路径别名**、` electron-builder`、`i18n` 等其它配配置项
-- ☔`src/background.js`: 主进程入口文件
-- 🐐`src/mainProcess.js`: 负责管理主进程
+- ☔`src/background.js`: **主进程**入口文件
+- 🐐`src/mainProcess/appManager.js`: 负责管理**主进程**
 - 🚧`src/main.js`: Vue入口文件
 - 🏨`src/backend.js`: 网络请求接口及`axios`配置项
 
