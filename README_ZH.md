@@ -17,6 +17,7 @@
 
 🚀构建于`vue-cli` & `electron-builder`，模块化设计。添加了常用插件及演示功能。你可以在本项目中愉快的使用`svg`图片，舒适的享受`i18n`多国语言支持， 切换程序语言（整个程序！包括electron原生菜单及浏览器页面)，快速进行多窗口管理、菜单管理，并且具有一个方便快捷的网络请求方式。
 
+[Document文档](https://github.com/Pure-Peace/vue-cli-electron-template/wiki)
 
 ## 📘这些:
 - 🍊基础: `vue-cli` &` electron-builder`
