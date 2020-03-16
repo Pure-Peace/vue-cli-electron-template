@@ -66,20 +66,20 @@ cd vue-cli-electron-template
  3. **🍙安装依赖（推荐使用yarn）**
  
 ```bash
-yarn & npm install
+yarn 或 npm install
 ```` 
 
 
  4. **🌽启动应用**
  
 ```bash
-yarn go & npm run go
+yarn go 或 npm run go
 ```
 
  5. **🍭打包应用**
  
 ```bash
-yarn packapp & npm run packapp
+yarn packapp 或 npm run packapp
 ```
 
 
