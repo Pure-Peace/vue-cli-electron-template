@@ -65,20 +65,31 @@ cd vue-cli-electron-template
  3. **🍙Install dependencies (yarn is recommended)**
  
 ```bash
-yarn & npm install
-```` 
-
+yarn
+```
+or
+```bash
+npm install
+```
 
  4. **🌽Start application**
  
 ```bash
-yarn go & npm run go
+yarn go
+```
+or
+```bash
+npm run go
 ```
 
  5. **🍭Packaging**
  
 ```bash
-yarn packapp & npm run packapp
+yarn packapp
+```
+or
+```bash
+npm run packapp
 ```
 
 
