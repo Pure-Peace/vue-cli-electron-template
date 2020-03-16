@@ -17,6 +17,8 @@
 
 🚀Build with `vue-cli` & `electron-builder`, modular design. added common plugins and demo features. You can happily use the `svg` icon in this project, use the `i18n` multi-language comfortably, switch the application language (overall! including the native menu of the electron and the browser page), Quickly manage multiple windows and menus, make network requests more convenient.
 
+[Document](https://github.com/Pure-Peace/vue-cli-electron-template/wiki)
+
 ## 📘These:
 - 🍊Basic: `vue-cli` &` electron-builder`
 - 🌕Router: `vue-router`
