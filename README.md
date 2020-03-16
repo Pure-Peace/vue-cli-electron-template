@@ -103,7 +103,3 @@ yarn packapp & npm run packapp
 **🔞postscript:**
 
 🌹Beginner electron, any suggestion is appreciated.
-
-And
-
-🙈English is not good, most of the documents use Google Translate...
