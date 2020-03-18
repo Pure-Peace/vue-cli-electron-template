@@ -22,7 +22,7 @@ class AppEvents {
 
     // app退出之前
     app.on('before-quit', () => {
-      windowManager.mainWindow.tray.destroy()
+      appManager.tray.destroy()
     })
 
     // 所有窗口都被关闭

@@ -1,6 +1,6 @@
 ![bigLogo](http://otsu.fun/big_logo.png)
 # 🔥vue-cli-electron-template
-⭐Using `vue-cli3` and `Electron6` built a modular desktop application template. Convenient packaging and program language switching,  with a custom borderless window, including `vue-router`, `vue-i18n`, `axios` and more common components, as well as some demo functions.
+⭐Using `vue-cli 3` and `Electron 8` built a modular desktop application template. Convenient packaging and program language switching,  with a custom borderless window, including `vue-router`, `vue-i18n`, `axios`, `electron-builder` and more common components, as well as some demo functions.
 
 ![npm](https://img.shields.io/npm/v/@vue/cli?color=aa&label=vue-cli)
 ![GitHub package.json version](https://img.shields.io/github/package-json/v/Pure-Peace/vue-cli-electron-template?color=yellow&logo=yellow&logoColor=yellow)
@@ -15,7 +15,7 @@
 
 <h2 align="center">⚡-Introduction-</h2>
 
-🚀Build with `vue-cli` & `electron-builder`, modular design. added common plugins and demo features. You can happily use the `svg` icon in this project, use the `i18n` multi-language comfortably, switch the application language (overall! including the native menu of the electron and the browser page), Quickly manage multiple windows and menus, make network requests more convenient.
+🚀A lightweight, modular template. Added common plugins and demo features. You can happily use the `svg` icon in this project, use the `i18n` multi-language comfortably, switch the application language (including the native components and the browser page), make network requests more convenient.
 
 [Document](https://github.com/Pure-Peace/vue-cli-electron-template/wiki)
 
@@ -32,7 +32,7 @@
 - 🎨Modular design with object-oriented writing (mainProcess)
 - 🍰Language switching for the entire program
 - 🐳An svg component based on `svg-sprite-loader`
-- 🏀`Electron6`: Demo of some apis.
+- 🏀`Electron 8`: Demo of some apis.
 - 🍉`vue-i18n`: Added demonstration of language switching, including language switching effect of `electron` native menu.
 - 🍩`axios`: Added request demo.
 - 🌼Use `ESlint` for code style specification.
@@ -49,6 +49,7 @@
 
 <h2 align="center">🏆-Start-</h2>
 
+- `&` = `or`
 
  1. **🍬Clone this repository**
  
@@ -101,6 +102,14 @@ yarn packapp & npm run packapp
 - 🙉`src/mainProcess/windows`: windows and windows manager.
 
 ---
-**🔞postscript:**
+## 🌹Thanks
 
-🌹Beginner electron, any suggestion is appreciated.
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore -->
+| [<img src="https://avatars0.githubusercontent.com/u/1502581?&v=4" width="100px;" alt="Hancel Lin"/><br /><sub><b>Hancel Lin</b></sub>](https://github.com/imlinhanchao)<br /> |
+| :---: |
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+🌺Welcome your suggestions.

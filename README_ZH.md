@@ -1,6 +1,6 @@
 ![bigLogo](http://otsu.fun/big_logo.png)
 # 🔥vue-cli-electron-template
-⭐使用`vue-cli3`和`Electron6`构建的一个模块化的桌面应用程序模板。可以方便进行的打包、切换程序语言，使用自定义无边框窗口，并且添加了`vue-router`、`vue-i18n`、`axios`等等常用插件，还提供了一些演示功能。
+⭐使用`vue-cli 3`和`Electron 8`构建的模块化的桌面应用程序模板。可以方便进行的打包、切换程序语言，使用自定义无边框窗口，并且添加了`vue-router`、`vue-i18n`、`axios`、`electron-builder`等常用插件以及一些演示功能。
 
 ![npm](https://img.shields.io/npm/v/@vue/cli?color=aa&label=vue-cli)
 ![GitHub package.json version](https://img.shields.io/github/package-json/v/Pure-Peace/vue-cli-electron-template?color=yellow&logo=yellow&logoColor=yellow)
@@ -15,7 +15,7 @@
 
 <h2 align="center">⚡-介绍！-</h2>
 
-🚀构建于`vue-cli` & `electron-builder`，模块化设计。添加了常用插件及演示功能。你可以在本项目中愉快的使用`svg`图片，舒适的享受`i18n`多国语言支持， 切换程序语言（整个程序！包括electron原生菜单及浏览器页面)，快速进行多窗口管理、菜单管理，并且具有一个方便快捷的网络请求方式。
+🚀轻量、模块化的模板。添加了常用插件及演示功能，你可以在本项目中愉快的使用`svg`图片，舒适的享受`i18n`多国语言支持，切换程序语言（包括原生组件及浏览器页面)，并且具有一个方便快捷的网络请求方式。
 
 [Document文档](https://github.com/Pure-Peace/vue-cli-electron-template/wiki)
 
@@ -29,10 +29,10 @@
 
 ## 🔍以及:
 - ⛅自定义的原生无边框窗口
-- 🎨使用面向对象的模块化写法（主进程文件）
+- 🎨主进程可进行模块化管理
 - 🍰整个程序都可以进行方便的语言切换
 - 🐳一个方便你使用`svg`图片的组件（基于`svg-sprite-loader`插件）
-- 🏀`Electron6`：添加了一些api演示
+- 🏀`Electron 8`：添加了一些api演示
 - 🍉`vue-i18n`：添加了语言切换演示，包括`electron`原生菜单
 - 🍩`axios`：添加了网络请求演示
 - 🌼使用`ESlint`进行代码风格规范
@@ -52,6 +52,8 @@
 
 
  1. **🍬克隆这个仓库**
+
+ - `&` = `或`
  
 ```bash
 git clone https://github.com/Pure-Peace/vue-cli-electron-template
@@ -68,7 +70,6 @@ cd vue-cli-electron-template
 ```bash
 yarn 或 npm install
 ```` 
-
 
  4. **🌽启动应用**
  
@@ -103,7 +104,14 @@ yarn packapp 或 npm run packapp
 - 🙉`src/mainProcess/windows`：多窗口及窗口管理器
 
 ---
-**🔞后记：**
+## 🌹特别感谢
 
-🌹初学electron，欢迎提建议……
 
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore -->
+| [<img src="https://avatars0.githubusercontent.com/u/1502581?&v=4" width="100px;" alt="Hancel Lin"/><br /><sub><b>Hancel Lin</b></sub>](https://github.com/imlinhanchao)<br /> |
+| :---: |
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+🌺欢迎您提出建议
