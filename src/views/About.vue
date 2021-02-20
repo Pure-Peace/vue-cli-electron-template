@@ -15,7 +15,12 @@
     <h2>Author: PurePeace</h2>
     <h2
       style="cursor: pointer; color: #FFF;"
-      @click="()=>{const {shell} = require('electron'); shell.openExternal(link)}"
+      @click="
+        () => {
+          const { shell } = require('electron')
+          shell.openExternal(link)
+        }
+      "
     >
       Github: <span style="user-select: text;">{{ link }}</span>
     </h2>
@@ -23,7 +28,6 @@
 </template>
 
 <script>
-
 export default {
   data () {
     return {
@@ -32,17 +36,13 @@ export default {
     }
   },
   methods: {
-    sendRequest () {
+    // Async request
+    async sendRequest () {
+      console.log(this.$backend)
       this.buttonText = 'requestDemo.requesting'
-      this.$backend.demoGet(
-        // 参数 / parameter
-      ).then(res => {
-        console.log(res)
-        this.buttonText = 'requestDemo.requestSuccess'
-      }).catch(error => {
-        console.log(error)
-        this.buttonText = 'requestDemo.requestFail'
-      })
+      const res = await this.$backend.apiV2.demoGetV2()
+      this.buttonText = 'requestDemo.requestSuccess'
+      console.log(res)
     }
   }
 }
