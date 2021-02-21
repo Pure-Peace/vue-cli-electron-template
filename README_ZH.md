@@ -1,6 +1,6 @@
 ![bigLogo](http://otsu.fun/big_logo.png)
+
 # 🔥vue-cli-electron-template
-⭐使用`vue-cli 3`和`Electron 8`构建的模块化的桌面应用程序模板。可以方便进行的打包、切换程序语言，使用自定义无边框窗口，并且添加了`vue-router`、`vue-i18n`、`axios`、`electron-builder`等常用插件以及一些演示功能。
 
 ![npm](https://img.shields.io/npm/v/@vue/cli?color=aa&label=vue-cli)
 ![GitHub package.json version](https://img.shields.io/github/package-json/v/Pure-Peace/vue-cli-electron-template?color=yellow&logo=yellow&logoColor=yellow)
@@ -10,102 +10,103 @@
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/Pure-Peace/vue-cli-electron-template?color=aa&label=Lightweight&logo=aa&logoColor=aa)
 ![GitHub last commit](https://img.shields.io/github/last-commit/Pure-Peace/vue-cli-electron-template)
 
+⭐ 使用 **vue-cli 4** 和 **Electron 8.x** 构建的模块化的桌面应用程序模板。目录结构清晰，主进程（Electron）与渲染进程（Vue）分离，易于扩展和管理。
 
-- 🌺[English](https://github.com/Pure-Peace/vue-cli-electron-template/blob/master/README.md) / 💖中文
+支持快速打包、一键多语言切换。使用自定义无边框窗口，已添加易用的**svg**图标插件，封装了**axios** （Api 接口资源与请求器分离）、**vuex**、**vue-router**、**vue-i18n** 和 全局总线 **bus**，开箱即用，项目极速启动。
 
-<h2 align="center">⚡-介绍！-</h2>
+- [English](https://github.com/Pure-Peace/vue-cli-electron-template/blob/master/README.md) / 💖 中文
+- [简要文档](https://github.com/Pure-Peace/vue-cli-electron-template/wiki)
 
-🚀轻量、模块化的模板。添加了常用插件及演示功能，你可以在本项目中愉快的使用`svg`图片，舒适的享受`i18n`多国语言支持，切换程序语言（包括原生组件及浏览器页面)，并且具有一个方便快捷的网络请求方式。
+## Release Notes:
 
-[Document文档](https://github.com/Pure-Peace/vue-cli-electron-template/wiki)
+- [v0.3.0](https://github.com/Pure-Peace/vue-cli-electron-template/releases/tag/0.3.0): 老版本。不过升级了一些依赖，进行了微小的重构。
+- [v1.0.0](https://github.com/Pure-Peace/vue-cli-electron-template/releases/tag/1.0.0): 整体重构，目录结构更加清晰。同时修复 MacOS 下托盘设置图标的问题。
 
-## 📘这些:
-- 🍊基础: `vue-cli` &` electron-builder`
-- 🌕路由: `vue-router`
-- 🍁多语言: `vue-i18n`
-- 🌝网络请求器: `axios`
-- 🚅快速打包: `electron-builder`
-- 💚css预处理器: `less`
+### 详细说明:
 
-## 🔍以及:
-- ⛅自定义的原生无边框窗口
-- 🎨主进程可进行模块化管理
-- 🍰整个程序都可以进行方便的语言切换
-- 🐳一个方便你使用`svg`图片的组件（基于`svg-sprite-loader`插件）
-- 🏀`Electron 8`：添加了一些api演示
-- 🍉`vue-i18n`：添加了语言切换演示，包括`electron`原生菜单
-- 🍩`axios`：添加了网络请求演示
-- 🌼使用`ESlint`进行代码风格规范
-- 🌠还有`vuex`、`vue-router`
-- 🍖我没有在项目中添加第三方ui库，您可以随心所欲选择自己喜欢的添加
+- 使用自定义的无边框窗口。
+- 清晰的目录结构，模块化设计。主进程（Electron）和渲染进程（Vue）分离，方便扩展和管理。
+- 完全支持多语言，切换自如。
+- 已编写**svg**图标组件，您可自由添加和使用 svg 图标，非常简单。
+- **Electron**：包含一些 api 使用演示。
+- **vue-i18n**：添加了语言切换效果演示，包括对`electron`原生组件的语言切换效果。
+- 已封装的**axios**，Api 接口与请求器分离，方便管理。
+- 使用**ESlint**进行代码风格规范。
+- 已添加**vuex**、**vue-router**，还有一个方便的全局总线**bus**。
 
+**项目未添加任何第三方 ui 库，您可以随心所欲选择自己喜欢的添加。**
 
-## 📷Screenshots:
+## 📷 演示截图:
+
 ![screenshot](http://otsu.fun/demos/0.png)
 ![screenshot](http://otsu.fun/demos/1.png)
-![screenshot](http://otsu.fun/demos/gw.png)
+![screenshot](http://otsu.fun/demos/s1.png)
 ![screenshot](http://otsu.fun/demos/2.png)
 ![screenshot](http://otsu.fun/demos/3.png)
 
+---
 
-<h2 align="center">🏆-开始吧！-</h2>
+## 🏆 开始
 
+- 任选 **yarn** 或 **npm** 其一
 
- 1. **🍬克隆这个仓库**
+**🍬 克隆项目**
 
- - `&` = `或`
- 
 ```bash
 git clone https://github.com/Pure-Peace/vue-cli-electron-template
 ```
 
- 2. **🍮进入目录**
- 
 ```bash
 cd vue-cli-electron-template
 ```
 
- 3. **🍙安装依赖（推荐使用yarn）**
- 
-```bash
-yarn 或 npm install
-```` 
+**🍙 安装依赖**
 
- 4. **🌽启动应用**
- 
 ```bash
-yarn go 或 npm run go
+yarn
 ```
 
- 5. **🍭打包应用**
- 
 ```bash
-yarn packapp 或 npm run packapp
+npm install
 ```
 
+**🌽 启动应用**
 
-<h2 align="center">🍌-结构！-</h2>
+```bash
+yarn go
+```
 
-**⚽文件的：**
+```bash
+npm run go
+```
 
-- 🎰`./vue.config.js`: 包括 **vue路径别名**、` electron-builder`、`i18n` 等其它配配置项
-- ☔`src/background.js`: **主进程**入口文件
-- 🐐`src/mainProcess/appManager.js`: 负责管理**主进程**
-- 🚧`src/main.js`: Vue入口文件
-- 🏨`src/backend.js`: 网络请求接口及`axios`配置项
+**🍭 打包应用**
 
-**🍀目录的：**
+```bash
+yarn buildapp
+```
 
-- 🌲`src/locales`：`i18n`多语言翻译文件目录
-- 🐓`src/mainProcess`：主进程模块化文件
-- 🙀`src/mainProcess/events`：ipc及app事件
-- 🌴`src/mainProcess/menus`：菜单管理
-- 🐏`src/mainProcess/plugins`：目前只有翻译器在里面
-- 🙉`src/mainProcess/windows`：多窗口及窗口管理器
+```bash
+npm run buildapp
+```
+
+### 🍌 目录结构
+
+#### 重要：
+
+- 🐓`src/main`：主进程（Electron 相关）。
+- 🙀`src/renderer`：渲染进程（Vue 或网页相关）。
+- 🎰`vue.config.js`: 包括**路径别名**、**electron-builder**、**i18n** 等各种 app 配置项。
+
+#### 其它：
+
+- 🏨`src/backend`: Api 后端接口资源，及**axios**配置项。
+- 🌲`src/locales`：**i18n** 多语言翻译文件目录。
+- 🙀`src/main/events`：主进程（Electron） **ipc** 及 **app** 事件。
 
 ---
-## 🌹特别感谢
 
+### 🌹 特别感谢
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore -->
@@ -114,4 +115,4 @@ yarn packapp 或 npm run packapp
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
-🌺欢迎您提出建议
+🌺 欢迎您提出建议

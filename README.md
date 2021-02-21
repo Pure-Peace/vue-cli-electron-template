@@ -1,6 +1,6 @@
 ![bigLogo](http://otsu.fun/big_logo.png)
+
 # 🔥vue-cli-electron-template
-⭐Using `vue-cli 3` and `Electron 8` built a modular desktop application template. Convenient packaging and program language switching,  with a custom borderless window, including `vue-router`, `vue-i18n`, `axios`, `electron-builder` and more common components, as well as some demo functions.
 
 ![npm](https://img.shields.io/npm/v/@vue/cli?color=aa&label=vue-cli)
 ![GitHub package.json version](https://img.shields.io/github/package-json/v/Pure-Peace/vue-cli-electron-template?color=yellow&logo=yellow&logoColor=yellow)
@@ -10,100 +10,105 @@
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/Pure-Peace/vue-cli-electron-template?color=aa&label=Lightweight&logo=aa&logoColor=aa)
 ![GitHub last commit](https://img.shields.io/github/last-commit/Pure-Peace/vue-cli-electron-template)
 
+⭐ Using **vue-cli 4** and **Electron 8.x** built a modular desktop application template.
 
-- 🌺English / 💖[中文](https://github.com/Pure-Peace/vue-cli-electron-template/blob/master/README_ZH.md)
+The directory structure is clear and the main process (electron) is separated from the rendering process (vue), which is easy to extend and manage.
 
-<h2 align="center">⚡-Introduction-</h2>
+Fast packaging, one-click multi-language switch. Use custom borderless windows, has added easy-to-use **svg** icon components, and **axios** , **vuex**, **vue-router**, **vue-i18n** and global bus **bus**, out of the box, project extremely fast start.
 
-🚀A lightweight, modular template. Added common plugins and demo features. You can happily use the `svg` icon in this project, use the `i18n` multi-language comfortably, switch the application language (including the native components and the browser page), make network requests more convenient.
+- [English](https://github.com/Pure-Peace/vue-cli-electron-template/blob/master/README.md) / 💖 中文
+- [Simple document](https://github.com/Pure-Peace/vue-cli-electron-template/wiki)
 
-[Document](https://github.com/Pure-Peace/vue-cli-electron-template/wiki)
+## Release Notes:
 
-## 📘These:
-- 🍊Basic: `vue-cli` &` electron-builder`
-- 🌕Router: `vue-router`
-- 🍁Multilingual: `vue-i18n`
-- 🌝Network Requester: `axios`
-- 🚅Quick package: `electron-builder`
-- 💚css preprocessor: `less`
+- [v0.3.0](https://github.com/Pure-Peace/vue-cli-electron-template/releases/tag/0.3.0): Old version. But some dependencies were upgraded and minor refactoring was done.
+- [v1.0.0](https://github.com/Pure-Peace/vue-cli-electron-template/releases/tag/1.0.0): After refactoring. Clearer directory structure. Also fix the problem of tray setting icon under MacOS.
 
-## 🔍And:
-- ⛅A custom window without native borders
-- 🎨Modular design with object-oriented writing (mainProcess)
-- 🍰Language switching for the entire program
-- 🐳An svg component based on `svg-sprite-loader`
-- 🏀`Electron 8`: Demo of some apis.
-- 🍉`vue-i18n`: Added demonstration of language switching, including language switching effect of `electron` native menu.
-- 🍩`axios`: Added request demo.
-- 🌼Use `ESlint` for code style specification.
-- 🌠and `vuex`, `vue-router`
-- 🍖I did not use any ui library, you can add as you like.
+### Detailed:
 
-## 📷Screenshots:
+- Custom borderless windows.
+- Clear directory structure with modular design. Separation of main process (Electron) and rendering process (Vue), easy to extend and manage.
+- Fully support multiple languages and switch freely.
+- **svg** icon component, you can freely add and use svg icons, very easy
+- **Electron**: contains some demos.
+- **vue-i18n**：Added language switching demo, including language switching for **Electron** native components.
+- Wrapped **axios**, Api interface is separated from the requester for easy management.
+- Use **ESlint** for code style specification.
+- Added **vuex**, **vue-router**, and a handy global bus **bus**.
+
+**The project does not add any third-party ui libraries, so you can add as many as you like.**
+
+## 📷 Screenshots:
+
 ![screenshot](http://otsu.fun/demos/0.png)
 ![screenshot](http://otsu.fun/demos/1.png)
-![screenshot](http://otsu.fun/demos/gw.png)
+![screenshot](http://otsu.fun/demos/s1.png)
 ![screenshot](http://otsu.fun/demos/2.png)
 ![screenshot](http://otsu.fun/demos/3.png)
 
+---
 
-<h2 align="center">🏆-Start-</h2>
+## 🏆 Start
 
-- `&` = `or`
+- Choose either **yarn** or **npm**
 
- 1. **🍬Clone this repository**
- 
+**🍬 Clone**
+
 ```bash
 git clone https://github.com/Pure-Peace/vue-cli-electron-template
 ```
 
- 2. **🍮Enter the directory**
- 
 ```bash
 cd vue-cli-electron-template
 ```
 
- 3. **🍙Install dependencies (yarn is recommended)**
- 
+**🍙 Install**
+
 ```bash
-yarn & npm install
+yarn
 ```
 
- 4. **🌽Start application**
- 
 ```bash
-yarn go & npm run go
+npm install
 ```
 
- 5. **🍭Packaging**
- 
+**🌽 Run**
+
 ```bash
-yarn packapp & npm run packapp
+yarn go
 ```
 
+```bash
+npm run go
+```
 
-<h2 align="center">🍌-Structure-</h2>
+**🍭 Build**
 
-**⚽files:**
+```bash
+yarn buildapp
+```
 
-- 🎰`./vue.config.js`: Contains **vue path alias**,` electron-builder`, `i18n` and other related configurations.
-- ☔`src/background.js`: **Main process** entry file.
-- 🐐`src/mainProcess/appManager.js`: Management of the **main process**.
-- 🚧`src/main.js`: Vue entry file.
-- 🏨`src/backend.js`: network request interface and` axios` configuration.
+```bash
+npm run buildapp
+```
 
-**🍀Directories:**
+### 🍌Structure:
 
-- 🌲`src/locales`: `i18n` language translation file directory.
-- 🐓`src/mainProcess`: Main process modular file directory.
-- 🙀`src/mainProcess/events`: ipc and app event manager.
-- 🌴`src/mainProcess/menus`: Menu manager.
-- 🐏`src/mainProcess/plugins`: Currently only translator.
-- 🙉`src/mainProcess/windows`: windows and windows manager.
+#### Important:
+
+- 🐓`src/main`：Main process (Electron).
+- 🙀`src/renderer`：Renderer process (Vue).
+- 🎰`vue.config.js`: Includes **Path alias**、**electron-builder**、**i18n** And app configurations.
+
+#### Others:
+
+- 🏨`src/backend`: Api backend, and **axios** configurations.
+- 🌲`src/locales`：**i18n** Translation file directory.
+- 🙀`src/main/events`：Main process (Electron) **ipc** and **app** events.
 
 ---
-## 🌹Thanks
 
+### 🌹 Special thanks:
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore -->
@@ -112,4 +117,4 @@ yarn packapp & npm run packapp
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
-🌺Welcome your suggestions.
+Welcome issues

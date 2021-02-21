@@ -1,12 +1,11 @@
 import { ipcMain, dialog } from 'electron'
 
 class IpcEvents {
-  // 创建ipc事件
   create (appManager) {
     this.appManager = appManager
 
-    // 翻译器函数
-    // Translator function
+    /* 翻译器函数
+    Translator function */
     const $t = appManager.translator.get()
 
     // ipc通信示例 / ipc demo

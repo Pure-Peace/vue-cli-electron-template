@@ -1,14 +1,15 @@
-import app from './app'
-import ipc from './ipc'
+import app from '../events/app'
+import ipc from '../events/ipc'
 
 class EventManager {
-  // 创建app、ipc事件
   constructor (appManager) {
     this.appManager = appManager
-    this.init()
+    this.createEvents()
   }
 
-  init () {
+  createEvents () {
+    /* Create electron ipc and app events
+      创建app、ipc事件 */
     app.create(this.appManager)
     ipc.create(this.appManager)
   }

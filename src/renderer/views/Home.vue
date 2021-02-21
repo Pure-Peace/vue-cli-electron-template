@@ -1,7 +1,7 @@
 <template>
   <div style="text-align: center;">
     <div>
-      <img src="~static/logo.png">
+      <img src="~assets/logo.png">
     </div>
     <div style="font-size: 21px; padding: 20px;">
       <!--这是一段使用了i18n的文字，请看locales文件夹中的翻译文件-->

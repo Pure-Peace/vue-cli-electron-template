@@ -1,4 +1,4 @@
-import i18n from '../../i18n'
+import i18n from '../../plugins/i18n'
 
 class Translator {
   constructor (locale, messages, fallbackLocale) {
@@ -7,24 +7,27 @@ class Translator {
     this.fallbackLocale = fallbackLocale || i18n.fallbackLocale
   }
 
-  // 改变翻译器语言
+  /* Change language
+  改变翻译器语言 */
   changeLang (locale) {
     this.locale = locale
   }
 
-  // 获取翻译函数（为了保持this正确指向）
-  // Get the translation function (to keep this pointed to correctly)
+  /* 获取翻译函数（为了保持this正确指向）
+  Get the translation function (to keep this pointed to correctly) */
   get () {
-    return (i) => { return this.$t(i) }
+    return i => {
+      return this.$t(i)
+    }
   }
 
-  // 翻译函数
-  // Translation function
+  /* 翻译函数
+  Translation function */
   $t (original) {
     function $query (trans) {
       for (let i = 0; i < textList.length; i++) {
         const key = textList[i]
-        if (typeof (trans) === 'object') trans = trans[key]
+        if (typeof trans === 'object') trans = trans[key]
       }
       return trans || original
     }
