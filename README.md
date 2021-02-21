@@ -16,7 +16,7 @@ The directory structure is clear and the main process (electron) is separated fr
 
 Fast packaging, one-click multi-language switch. Use custom borderless windows, has added easy-to-use **svg** icon components, and **axios** , **vuex**, **vue-router**, **vue-i18n** and global bus **bus**, out of the box, project extremely fast start.
 
-- [English](https://github.com/Pure-Peace/vue-cli-electron-template/blob/master/README.md) / 💖 中文
+- English / 💖 [中文](https://github.com/Pure-Peace/vue-cli-electron-template/blob/master/README_ZH.md)
 - [Simple document](https://github.com/Pure-Peace/vue-cli-electron-template/wiki)
 
 ## Release Notes:

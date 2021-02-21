@@ -3,4 +3,4 @@ node_js:
     - 12
 script:
     - npm run go
-    - npm run packapp
+    - npm run buildapp
