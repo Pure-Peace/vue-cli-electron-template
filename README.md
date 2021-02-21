@@ -10,7 +10,7 @@
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/Pure-Peace/vue-cli-electron-template?color=aa&label=Lightweight&logo=aa&logoColor=aa)
 ![GitHub last commit](https://img.shields.io/github/last-commit/Pure-Peace/vue-cli-electron-template)
 
-⭐ Using **vue-cli 4** and **Electron 8.x** built a modular desktop application template.
+⭐ Using **vue-cli 4** and **Electron 11.x** built a modular desktop application template.
 
 The directory structure is clear and the main process (electron) is separated from the rendering process (vue), which is easy to extend and manage.
 
@@ -23,6 +23,7 @@ Fast packaging, one-click multi-language switch. Use custom borderless windows, 
 
 - [v0.3.0](https://github.com/Pure-Peace/vue-cli-electron-template/releases/tag/0.3.0): Old version. But some dependencies were upgraded and minor refactoring was done.
 - [v1.0.0](https://github.com/Pure-Peace/vue-cli-electron-template/releases/tag/1.0.0): After refactoring. Clearer directory structure. Also fix the problem of tray setting icon under MacOS.
+- [v2.0.0](https://github.com/Pure-Peace/vue-cli-electron-template/releases/tag/2.0.0): Electron 11.x version
 
 ### Detailed:
 

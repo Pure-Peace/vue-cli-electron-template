@@ -40,7 +40,7 @@ class MainWindow {
       webPreferences: {
         /* 注意，这些设置有关程序的安全性，请谨慎使用！
           Note: these settings are related to the security of the program, please use it with caution! */
-
+        enableRemoteModule: true, // Electron 10.x起需要主动启用才可在渲染进程中使用remote / Electron 10.x and above need to be actively enabled in order to use remote in the rendering process
         webSecurity: false, // 设为false允许跨域 / Set to false to allow cross-domain requests
         nodeIntegration: true // 允许渲染进程使用node.js / node integration, allow renderer process use node.js!
       },

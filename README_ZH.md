@@ -10,7 +10,7 @@
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/Pure-Peace/vue-cli-electron-template?color=aa&label=Lightweight&logo=aa&logoColor=aa)
 ![GitHub last commit](https://img.shields.io/github/last-commit/Pure-Peace/vue-cli-electron-template)
 
-⭐ 使用 **vue-cli 4** 和 **Electron 8.x** 构建的模块化的桌面应用程序模板。目录结构清晰，主进程（Electron）与渲染进程（Vue）分离，易于扩展和管理。
+⭐ 使用 **vue-cli 4** 和 **Electron 11.x** 构建的模块化的桌面应用程序模板。目录结构清晰，主进程（Electron）与渲染进程（Vue）分离，易于扩展和管理。
 
 支持快速打包、一键多语言切换。使用自定义无边框窗口，已添加易用的**svg**图标插件，封装了**axios** （Api 接口资源与请求器分离）、**vuex**、**vue-router**、**vue-i18n** 和 全局总线 **bus**，开箱即用，项目极速启动。
 
@@ -21,6 +21,7 @@
 
 - [v0.3.0](https://github.com/Pure-Peace/vue-cli-electron-template/releases/tag/0.3.0): 老版本。不过升级了一些依赖，进行了微小的重构。
 - [v1.0.0](https://github.com/Pure-Peace/vue-cli-electron-template/releases/tag/1.0.0): 整体重构，目录结构更加清晰。同时修复 MacOS 下托盘设置图标的问题。
+- [v2.0.0](https://github.com/Pure-Peace/vue-cli-electron-template/releases/tag/2.0.0): Electron 11.x 版本
 
 ### 详细说明:
 
